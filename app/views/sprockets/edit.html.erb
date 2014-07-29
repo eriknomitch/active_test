@@ -1,6 +1,5 @@
-<h1>Editing sprocket</h1>
-
-<%= render 'form' %>
-
-<%= link_to 'Show', @sprocket %> |
-<%= link_to 'Back', sprockets_path %>
+<%- model_class = Sprocket -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => [:'helpers.titles.edit', 'Edit %{model}'], :model => Sprocket %></h1>
+</div>
+<%= render :partial => 'form' %>
