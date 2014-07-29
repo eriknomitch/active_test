@@ -29,6 +29,7 @@ class SprocketsController < ApplicationController
   # POST /sprockets.json
   def create
     @sprocket = Sprocket.new(sprocket_params)
+    @sprocket.user = current_user
 
     respond_to do |format|
       if @sprocket.save
