@@ -1,0 +1,29 @@
+<h1>Listing sprockets</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>User</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @sprockets.each do |sprocket| %>
+      <tr>
+        <td><%= sprocket.user %></td>
+        <td><%= sprocket.title %></td>
+        <td><%= sprocket.description %></td>
+        <td><%= link_to 'Show', sprocket %></td>
+        <td><%= link_to 'Edit', edit_sprocket_path(sprocket) %></td>
+        <td><%= link_to 'Destroy', sprocket, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Sprocket', new_sprocket_path %>

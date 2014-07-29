@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @sprocket.user %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @sprocket.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @sprocket.description %>
+</p>
+
+<%= link_to 'Edit', edit_sprocket_path(@sprocket) %> |
+<%= link_to 'Back', sprockets_path %>
