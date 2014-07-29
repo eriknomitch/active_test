@@ -43,7 +43,7 @@ gem 'bundler'
 group :development do
   gem 'better_errors'
   gem 'pry-rails'
-  #gem 'prelang', path: '~/.repositories/prelang/gem'
+  gem 'prelang', path: '~/.repositories/prelang/gem'
 end
 
 gem 'binding_of_caller'
