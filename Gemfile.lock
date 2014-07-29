@@ -21,7 +21,7 @@ PATH
   specs:
     prelang (0.0.0)
       active_hash
-      activesupport (~> 4.1.4)
+      activesupport (= 4.1.4)
       git (~> 1.2.6)
       highline
       i18n
