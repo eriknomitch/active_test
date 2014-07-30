@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/plataformatec/devise.git
-  revision: 66db52ce31b5d8629f5813a1d7f03a8bc17e5d52
+  revision: 447b7030f856a3e1e9a08f3cc038977587420b9c
   specs:
     devise (3.2.4)
       bcrypt (~> 3.0)
@@ -22,7 +22,7 @@ PATH
     prelang (0.0.0)
       active_hash
       activesupport (= 4.1.4)
-      git (~> 1.2.6)
+      git (~> 1.2.7)
       highline
       i18n
       pry
