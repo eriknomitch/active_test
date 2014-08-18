@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/plataformatec/devise.git
-  revision: 6e95b66b544638178f1e9648369ec560594163ac
+  revision: 8e4a700f81c8bfc3d46951e34f5ff3c18138c89e
   specs:
     devise (3.3.0)
       bcrypt (~> 3.0)
@@ -130,7 +130,7 @@ GEM
       omniauth (~> 1.2)
     orm_adapter (0.5.0)
     polyglot (0.3.5)
-    pry (0.10.0)
+    pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
