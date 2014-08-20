@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/plataformatec/devise.git
-  revision: 8e4a700f81c8bfc3d46951e34f5ff3c18138c89e
+  revision: df43642cd5e5a4ed666fc8e57a1bee46de864394
   specs:
     devise (3.3.0)
       bcrypt (~> 3.0)
@@ -63,9 +63,10 @@ GEM
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
     bcrypt (3.1.7)
-    better_errors (1.1.0)
+    better_errors (2.0.0)
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
+      rack (>= 0.9.0)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     bootstrap-sass-extras (0.0.6)
@@ -188,7 +189,7 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
-    turbolinks (2.2.2)
+    turbolinks (2.2.3)
       coffee-rails
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
