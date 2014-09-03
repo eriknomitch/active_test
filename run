@@ -1,1 +1,2 @@
-bundle update && rails server
+#bundle update && rails server
+rails server
