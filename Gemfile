@@ -45,6 +45,7 @@ group :development do
   gem 'better_errors'
   gem 'pry-rails'
   gem 'prelang', path: '~/.repositories/prelang/gem'
+  gem 'quiet_assets'
 end
 
 gem 'binding_of_caller'
