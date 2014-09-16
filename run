@@ -1,2 +1,11 @@
-#bundle update && rails server
-rails server
+#!/bin/zsh
+
+source ~/.zshrc
+
+if [[ `ps ux | grep "rails server" | grep -v grep | wc -l` -gt 0 ]] ; then
+  echo "Rails server is already running, launching console..."
+  bin/rails console
+else
+  #bundle update
+  bin/rails server
+fi
