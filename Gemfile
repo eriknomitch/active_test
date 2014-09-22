@@ -60,3 +60,5 @@ gem 'tzinfo-data'
 group :development, :test do
   gem 'dotenv-rails'
 end
+
+gem 'rails_config'
