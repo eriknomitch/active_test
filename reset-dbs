@@ -1,0 +1,2 @@
+rake db:reset RAILS_ENV=development
+rake db:reset RAILS_ENV=test

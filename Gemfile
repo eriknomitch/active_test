@@ -43,8 +43,11 @@ gem 'bundler'
 
 group :development do
   gem 'better_errors'
-  gem 'prelang', path: '~/.repositories/prelang/gem'
   gem 'quiet_assets'
+end
+
+group :development, :test do
+  gem 'prelang', path: '~/.repositories/prelang/gem'
 end
 
 gem 'binding_of_caller'
