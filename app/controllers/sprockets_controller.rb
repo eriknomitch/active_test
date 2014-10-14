@@ -8,8 +8,14 @@ class SprocketsController < ApplicationController
   # GET /sprockets
   # GET /sprockets.json
   def index
-    @sprockets = Sprocket.all
+    @q = Sprocket.search(params[:q])
+
+    @sprockets = @q.result(distinct: true)
   end
+  
+  #def index
+    #@sprockets = Sprocket.all
+  #end
 
   # GET /sprockets/1
   # GET /sprockets/1.json

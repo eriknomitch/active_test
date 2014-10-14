@@ -2,6 +2,15 @@
 <div class="page-header">
   <h1><%=t '.title', :default => Sprocket %></h1>
 </div>
+
+<%= search_form_for @q do |f| %>
+
+  <%= f.label :title_cont %>
+  <%= f.search_field :title_cont %>
+
+  <%= f.submit %>
+<% end %>
+
 <table class="table table-striped">
   <thead>
     <tr>
