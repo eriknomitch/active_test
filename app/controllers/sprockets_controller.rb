@@ -10,7 +10,7 @@ class SprocketsController < ApplicationController
   def index
     @q = Sprocket.search(params[:q])
 
-    @sprockets = @q.result(distinct: true)
+    @sprockets = @q.result(distinct: true).page(params[:page]).per(5)
   end
   
   #def index
