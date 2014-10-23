@@ -65,4 +65,5 @@ end
 
 gem 'ransack', github: 'activerecord-hackery/ransack', branch: 'rails-4.1'
 gem 'kaminari'
+gem 'pry-rails', group: [:development]
 
