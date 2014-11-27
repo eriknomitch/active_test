@@ -63,3 +63,7 @@ group :development, :test do
   gem 'dotenv-rails'
 end
 
+gem 'kaminari'
+
+gem 'bootstrap-kaminari-views'
+
