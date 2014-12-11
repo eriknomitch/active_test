@@ -1,4 +1,15 @@
 GIT
+  remote: git://github.com/activerecord-hackery/ransack.git
+  revision: 40b8e92b69fac189e6ce76330458fc820047646f
+  specs:
+    ransack (1.5.1)
+      actionpack (>= 3.0)
+      activerecord (>= 3.0)
+      activesupport (>= 3.0)
+      i18n
+      polyamorous (~> 1.1)
+
+GIT
   remote: git://github.com/plataformatec/devise.git
   revision: 9f638502798f65011a616e240138b55ee9c6242f
   specs:
@@ -70,6 +81,9 @@ GEM
       rack (>= 0.9.0)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    bootstrap-kaminari-views (0.0.5)
+      kaminari (>= 0.13)
+      rails (>= 3.1)
     bootstrap-sass-extras (0.0.6)
       rails (>= 3.1.0)
     builder (3.2.2)
@@ -104,6 +118,9 @@ GEM
       thor (>= 0.14, < 2.0)
     json (1.8.1)
     jwt (1.0.0)
+    kaminari (0.16.1)
+      actionpack (>= 3.0.0)
+      activesupport (>= 3.0.0)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -131,6 +148,8 @@ GEM
       oauth2 (~> 1.0)
       omniauth (~> 1.2)
     orm_adapter (0.5.0)
+    polyamorous (1.1.0)
+      activerecord (>= 3.0)
     polyglot (0.3.5)
     prependfile (0.2.0)
       trollop
@@ -222,6 +241,7 @@ PLATFORMS
 DEPENDENCIES
   better_errors
   binding_of_caller
+  bootstrap-kaminari-views
   bootstrap-sass!
   bootstrap-sass-extras
   bundler
@@ -230,11 +250,13 @@ DEPENDENCIES
   dotenv-rails
   jbuilder (~> 2.0)
   jquery-rails
+  kaminari
   omniauth
   omniauth-facebook
   prelang!
   quiet_assets
   rails (= 4.1.4)
+  ransack!
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   spring
