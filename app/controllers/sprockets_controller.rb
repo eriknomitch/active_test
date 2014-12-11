@@ -7,10 +7,19 @@ class SprocketsController < ApplicationController
 
   # GET /sprockets
   # GET /sprockets.json
-  def index
-    @sprockets = Sprocket.all
-  end
+def index
 
+  # Get a Query object from the model class based on the 
+  # query parameter.
+  @q = Sprocket.search(params[:q])
+
+  # Fetch the results from that Query object
+  @sprockets = @q.result(distinct: true)
+
+  # Paginate/limit models by page parameter
+  @sprockets = @sprockets.page(params[:page]).per(5)
+
+end
   # GET /sprockets/1
   # GET /sprockets/1.json
   def show
