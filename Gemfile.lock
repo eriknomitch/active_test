@@ -1,4 +1,15 @@
 GIT
+  remote: git://github.com/activerecord-hackery/ransack.git
+  revision: 15b0dd1c6a09e0207d40332138dbde5bad11e586
+  specs:
+    ransack (1.5.1)
+      actionpack (>= 3.0)
+      activerecord (>= 3.0)
+      activesupport (>= 3.0)
+      i18n
+      polyamorous (~> 1.1)
+
+GIT
   remote: git://github.com/plataformatec/devise.git
   revision: 9f638502798f65011a616e240138b55ee9c6242f
   specs:
@@ -146,6 +157,8 @@ GEM
       activesupport (>= 3.0.0)
       cocaine (~> 0.5.3)
       mime-types
+    polyamorous (1.1.0)
+      activerecord (>= 3.0)
     polyglot (0.3.5)
     prependfile (0.2.0)
       trollop
@@ -253,6 +266,7 @@ DEPENDENCIES
   prelang!
   quiet_assets
   rails (= 4.1.4)
+  ransack!
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   spring
