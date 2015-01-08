@@ -65,3 +65,7 @@ end
 
 gem 'paperclip', '~> 4.2'
 
+gem 'kaminari'
+
+gem 'bootstrap-kaminari-views'
+
