@@ -63,3 +63,5 @@ group :development, :test do
   gem 'dotenv-rails'
 end
 
+gem 'paperclip', '~> 4.2'
+
