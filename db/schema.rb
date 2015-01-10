@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141008213724) do
+ActiveRecord::Schema.define(version: 20150110022702) do
 
   create_table "sprockets", force: true do |t|
     t.integer  "user_id"
@@ -20,6 +20,10 @@ ActiveRecord::Schema.define(version: 20141008213724) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "new_attribute"
+    t.string   "foo_file_name"
+    t.string   "foo_content_type"
+    t.integer  "foo_file_size"
+    t.datetime "foo_updated_at"
   end
 
   add_index "sprockets", ["user_id"], name: "index_sprockets_on_user_id"
