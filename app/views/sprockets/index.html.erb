@@ -6,6 +6,7 @@
   <thead>
     <tr>
       <th>ID</th>
+      <th><%= model_class.human_attribute_name(:foo) %></th>
       <th><%= model_class.human_attribute_name(:title) %></th>
       <th><%= model_class.human_attribute_name(:description) %></th>
       <th><%= model_class.human_attribute_name(:created_at) %></th>
@@ -17,6 +18,7 @@
       <tr>
         <td><%= sprocket.id %></td>
         <td><%= sprocket.title %></td>
+        <td><%= image_tag sprocket.foo.url(:thumb) %></td>
         <td><%= sprocket.description %></td>
         <td><%=l sprocket.created_at, format: :long %></td>
         <td>

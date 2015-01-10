@@ -74,6 +74,6 @@ class SprocketsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def sprocket_params
-      params.require(:sprocket).permit(:user_id, :title, :description)
+      params.require(:sprocket).permit(:user_id, :title, :description, :foo)
     end
 end
