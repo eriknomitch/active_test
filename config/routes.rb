@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'sprockets#index'
 
-  mount Prelang::Rails::Engine => '/prelang'
+  mount Prelang::Rails::Engine => '/prelang' if defined? Prelang
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
