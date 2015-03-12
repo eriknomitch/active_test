@@ -244,6 +244,8 @@ DEPENDENCIES
   omniauth-facebook
   pg
   prelang!
+  pry-rescue
+  pry-stack_explorer
   pusher-client!
   quiet_assets
   rails (= 4.1.4)

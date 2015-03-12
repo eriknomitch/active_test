@@ -65,6 +65,8 @@ gem 'tzinfo-data'
 
 group :development, :test do
   gem 'dotenv-rails'
+  gem 'pry-rescue'
+  gem 'pry-stack_explorer'
 end
 
 gem 'rails_12factor', group: :production
