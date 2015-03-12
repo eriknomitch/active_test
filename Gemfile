@@ -50,6 +50,7 @@ group :development do
 end
 
 group :development, :test do
+  gem "pusher-client", github: "pusher/pusher-websocket-ruby"
   gem 'prelang', path: '~/.repositories/prelang/gem'
 end
 

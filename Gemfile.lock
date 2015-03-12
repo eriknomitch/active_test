@@ -10,6 +10,14 @@ GIT
       warden (~> 1.2.3)
 
 GIT
+  remote: git://github.com/pusher/pusher-websocket-ruby.git
+  revision: 247d125cc656439a07e74da7bf43da7317dfd5d3
+  specs:
+    pusher-client (0.6.0)
+      json
+      websocket (~> 1.0)
+
+GIT
   remote: git://github.com/twbs/bootstrap-sass.git
   revision: c9f2e89f826db06e058ac2a97da4dd7fd6b10ccc
   specs:
@@ -216,6 +224,7 @@ GEM
       activemodel (~> 4.0)
     warden (1.2.3)
       rack (>= 1.0)
+    websocket (1.2.1)
 
 PLATFORMS
   ruby
@@ -235,6 +244,7 @@ DEPENDENCIES
   omniauth-facebook
   pg
   prelang!
+  pusher-client!
   quiet_assets
   rails (= 4.1.4)
   rails_12factor
