@@ -28,7 +28,6 @@ PATH
       pry (~> 0.10.0, ~> 0.10)
       pry-rescue (~> 1.4.1, ~> 1.4)
       pry-stack_explorer (~> 0.4.9.1, ~> 0.4)
-      pusher-client (~> 0.6.0, ~> 0.6)
       rest-client (~> 1.7.2, ~> 1.7)
 
 GEM
@@ -145,9 +144,6 @@ GEM
     pry-stack_explorer (0.4.9.1)
       binding_of_caller (>= 0.7)
       pry (>= 0.9.11)
-    pusher-client (0.6.0)
-      json
-      websocket (~> 1.0)
     quiet_assets (1.0.3)
       railties (>= 3.1, < 5.0)
     rack (1.5.2)
@@ -220,7 +216,6 @@ GEM
       activemodel (~> 4.0)
     warden (1.2.3)
       rack (>= 1.0)
-    websocket (1.2.1)
 
 PLATFORMS
   ruby
